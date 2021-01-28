@@ -1,5 +1,5 @@
 /***************************************************************************
- * Copyright: 2015-2019 Hendrik Lehmbruch <hendrikL@siduction.org>
+ * Copyright: 2015-2021 Hendrik Lehmbruch <hendrikL@siduction.org>
  *            2013 Reza Fatahilah Shah <rshah0385@kireihana.com>
  *            2013 Abdurrahman AVCI <abdurrahmanavci@gmail.com>
  *
@@ -56,11 +56,6 @@ Rectangle {
             pw_entry.text = ""
             user_entry.text = ""
             user_entry.focus = true
-            
-            /* reset showPasswordPrompt_button */
-            pw_entry.echoMode = TextInput.Password
-            showPasswordPrompt_button.source = "images/hint.svg"
-            tooltip8.text = textConstants.showPasswordPrompt
             
             /* and Reset the message*/
             errorMessageResetTimer.restart()
@@ -214,7 +209,7 @@ Rectangle {
                          * "RememberLastUser=true".
                          ************************************************************************/
 
-                        // text: userModel.lastUser
+                        text: userModel.lastUser
 
                         font.pixelSize: 14
                         radius: 3
@@ -333,12 +328,6 @@ Rectangle {
     	id: toolTip1
         target: pw_entry
         text: textConstants.promptPassword
-    }
-    
-    Components.ToolTip {
-        id: tooltip8
-        target: showPasswordPrompt_button
-        text: textConstants.showPasswordPrompt
     }
 
     /* tooltips buttonRow */
