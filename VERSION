@@ -29,4 +29,4 @@ REMEMBERLASTUSER=true
 PREVIEW="images/preview.png"
 
 #theme.conf
-BACKGROUND="images/background.jpg"
+BACKGROUND="images/background.svg"
