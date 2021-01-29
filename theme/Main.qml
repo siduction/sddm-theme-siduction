@@ -103,7 +103,7 @@ Rectangle {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottomMargin: 20
         width: parent.width
-        source: "images/footer.svg"
+        source: "images/footer.png"
         fillMode: Image.PreserveAspectFit
     }
     /* end footerPic */ 
