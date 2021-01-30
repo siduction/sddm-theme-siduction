@@ -1,8 +1,12 @@
-sddm-theme-c-blues (2021.1.0) UNRELEASED; urgency=medium
+sddm-theme-c-blues (2021.1.0) unstable; urgency=medium
 
+  [ Hendrik Lehmbruch ]
   * preparing c-blues release 21.1 
 
- -- Hendrik Lehmbruch <hendrikl@siduction.org>  Mon, 25 Jan 2021 22:00:21 +0100
+  [ Torsten Wohlfarth ]
+  * build and upload for release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 30 Jan 2021 17:05:30 +0100
 
 sddm-theme-patience (2018.3.0-1) unstable; urgency=medium
 
