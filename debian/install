@@ -1,2 +1,2 @@
-theme/*       usr/share/sddm/themes/c-blues/
-etc/sddm.conf usr/share/sddm/c-blues/
+theme/*       usr/share/sddm/themes/cblues/
+etc/sddm.conf usr/share/sddm/cblues/

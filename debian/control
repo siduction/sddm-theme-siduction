@@ -1,4 +1,4 @@
-Source: sddm-theme-c-blues
+Source: sddm-theme-cblues
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Hendrik Lehmbruch <hendrikl@siduction.org>
 Section: x11
@@ -9,15 +9,15 @@ Vcs-Browser: https://git.siduction.org/extra/sddm-theme-siduction
 Vcs-Git: https://git.siduction.org/extra/sddm-theme-siduction.git
 Homepage: https://git.siduction.org/extra/sddm-theme-siduction
 
-Package: sddm-theme-c-blues
+Package: sddm-theme-cblues
 Architecture: all
 Depends: ${misc:Depends},
-         c-blues-wallpapers,
+         cblues-wallpapers,
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls2         
 Recommends: sddm
 Provides: sddm-theme
 Description:  theme for sddm
- Siduction c-blues sddm theme.
+ Siduction cblues sddm theme.
  .
  This package contain a sddm theme.
