@@ -14,7 +14,8 @@ Architecture: all
 Depends: ${misc:Depends},
          cblues-wallpapers,
          qml-module-qtgraphicaleffects,
-         qml-module-qtquick-controls2         
+         qml-module-qtquick-controls2,
+  		 qml-module-qtquick-controls
 Recommends: sddm
 Provides: sddm-theme
 Description:  theme for sddm
