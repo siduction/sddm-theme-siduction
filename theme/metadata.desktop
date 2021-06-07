@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=c-blues
-Description=c-blues sddm theme
+Name=farewell
+Description=farewell sddm theme
 Type=sddm-theme
 Author=Hendrik Lehmbruch
 Copyright=2021, Hendrik Lehmbruch
@@ -10,6 +10,6 @@ Version=0.1
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Theme-Id=c-blues
+Theme-Id=farewell
 Theme-API=2.0
-Website=https://github.com/siduction/sddm-theme-deepspace
+Website=https://github.com/siduction/sddm-theme-siduction

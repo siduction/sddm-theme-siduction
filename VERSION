@@ -1,9 +1,9 @@
 #!/bin/bash
 
-WALLPAPER=cblues
-CODENAME_SAFE=cblues
-DISPLAY_NAME=c-blues
-VERSION=2021.1.0
+WALLPAPER=farewell
+CODENAME_SAFE=farewell
+DISPLAY_NAME=farewell
+VERSION=2021.2.0
 DISTRIBUTION=unstable
 
 

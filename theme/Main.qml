@@ -96,7 +96,7 @@ Rectangle {
     }   
     /* end topBar */
     
-    /* footerPic if a label/branding wanted */    
+    /* footerPic if a label/branding is wanted */    
     Image {
         id: footerPic
         anchors.bottom: parent.bottom
