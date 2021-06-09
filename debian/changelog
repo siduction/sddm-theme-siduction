@@ -1,3 +1,9 @@
+sddm-theme-farewell (2021.1.99-2) unstable; urgency=medium
+
+  * packaging changeset f7d2d6f
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 09 Jun 2021 10:10:57 +0200
+
 sddm-theme-farewell (2021.1.99-1) unstable; urgency=medium
 
   * prepare farewell release
