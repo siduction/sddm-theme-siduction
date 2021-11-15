@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=farewell
-Description=farewell sddm theme
+Name=2021-03-exp
+Description=2021-03-exp sddm theme
 Type=sddm-theme
 Author=Hendrik Lehmbruch
 Copyright=2021, Hendrik Lehmbruch
@@ -10,6 +10,6 @@ Version=0.1
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Theme-Id=farewell
+Theme-Id=2021-03-exp
 Theme-API=2.0
 Website=https://github.com/siduction/sddm-theme-siduction

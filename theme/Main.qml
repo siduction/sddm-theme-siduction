@@ -103,7 +103,7 @@ Rectangle {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottomMargin: 20
         width: parent.width
-        source: "images/footer.png"
+        source: "images/footer.svg"
         fillMode: Image.PreserveAspectFit
     }
     /* end footerPic */ 
@@ -112,7 +112,7 @@ Rectangle {
     Rectangle {
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: 250
+        anchors.topMargin: 310
         width: 450
         height: 150
         color: "transparent" /*must be transparent*/
@@ -121,8 +121,8 @@ Rectangle {
         Rectangle {
             width: 450
             height: 150
-            color: "#333335"
-            opacity: 0.25
+            //color: "#333335"
+            opacity: 0.0
             radius: 12
         }
 

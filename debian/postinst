@@ -10,7 +10,7 @@ if [[ "$1" = "configure" || "$1" = "abort-upgrade" || "$1" = "abort-remove" ]]; 
     update-alternatives --install \
         /usr/share/sddm/themes/debian-theme \
         sddm-debian-theme \
-        /usr/share/sddm/themes/farewell 50
+        /usr/share/sddm/themes/2021-03-exp 50
 fi
 
 case "$1" in
@@ -19,7 +19,7 @@ case "$1" in
         if [ -f /etc/sddm.conf ]; then
             cp -f /usr/share/sddm/cblues/sddm.conf /etc/sddm.conf.dpkg-new
         else
-            cp -f /usr/share/sddm/farewell/sddm.conf /etc/sddm.conf
+            cp -f /usr/share/sddm/2021-03-exp/sddm.conf /etc/sddm.conf
         fi
     ;;
 
