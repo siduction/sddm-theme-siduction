@@ -1,9 +1,9 @@
 #!/bin/bash
 
-WALLPAPER=2021-03-exp
-CODENAME_SAFE=2021-03-exp
-DISPLAY_NAME=2021-03-exp
-VERSION=2021.2.03
+WALLPAPER=wintersky
+CODENAME_SAFE=wintersky
+DISPLAY_NAME=wintersky
+VERSION=2021.3.0
 DISTRIBUTION=unstable
 
 
@@ -29,4 +29,4 @@ REMEMBERLASTUSER=true
 PREVIEW="images/preview.png"
 
 #theme.conf
-BACKGROUND="images/background.svg"
+BACKGROUND="images/siduction.svg"

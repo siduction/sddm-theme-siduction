@@ -1,7 +1,7 @@
 [SddmGreeterTheme]
-Name=2021-03-exp
-Description=2021-03-exp sddm theme
-Type=sddm-theme
+Name=wintersky
+Description=wintersky sddm theme
+Type=sddm-greeter
 Author=Hendrik Lehmbruch
 Copyright=2021, Hendrik Lehmbruch
 License=EXPAT
@@ -10,6 +10,6 @@ Version=0.1
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Theme-Id=2021-03-exp
+Theme-Id=wintersky
 Theme-API=2.0
 Website=https://github.com/siduction/sddm-theme-siduction

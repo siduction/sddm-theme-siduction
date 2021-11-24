@@ -1,5 +1,5 @@
-Source: sddm-theme-2021-03-exp
-Maintainer: Alf Gaida <agaida@siduction.org>
+Source: sddm-theme-wintersky
+Maintainer: Torsten Wohlfart <towo@siduction.org>
 Uploaders: Hendrik Lehmbruch <hendrikl@siduction.org>
 Section: x11
 Priority: optional
@@ -9,16 +9,16 @@ Vcs-Browser: https://github.com/siduction/sddm-theme-siduction
 Vcs-Git: https://github.com/siduction/sddm-theme-siduction.git
 Homepage: https://github.com/siduction/sddm-theme-siduction
 
-Package: sddm-theme-2021-03-exp
+Package: sddm-theme-wintersky
 Architecture: all
 Depends: ${misc:Depends},
-         2021-03-exp-wallpapers,
+         wintersky-wallpapers,
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls2,
   		 qml-module-qtquick-controls
 Recommends: sddm
 Provides: sddm-theme
 Description:  theme for sddm
- siduction 2021-03-exp sddm theme.
+ siduction wintersky sddm theme.
  .
  This package contain a sddm theme.
