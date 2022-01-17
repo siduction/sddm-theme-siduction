@@ -213,7 +213,6 @@ Rectangle {
 
                         font.pixelSize: 14
                         radius: 3
-                        focus: true
 
                         KeyNavigation.backtab: user_entry; KeyNavigation.tab: pw_entry
                     }
@@ -424,6 +423,18 @@ Rectangle {
             font.pixelSize: 12
         }
         /* end hostname */
+    }
+
+    /***************************************************
+    * check if user_entry has text,
+    * then focus on pw_entry, else focus on user_entry
+    *****************************************************/
+
+    Component.onCompleted: {
+        if (user_entry.text === "")
+            user_entry.focus = true
+        else
+            pw_entry.focus = true
     }
 
 } /* fine */
