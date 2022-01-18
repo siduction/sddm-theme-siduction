@@ -1,3 +1,9 @@
+sddm-theme-wintersky (2021.3.0-2) unstable; urgency=medium
+
+  * fix cursor focus
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 18 Jan 2022 08:20:08 +0100
+
 sddm-theme-wintersky (2021.3.0-1) unstable; urgency=medium
 
   * wintersky release
