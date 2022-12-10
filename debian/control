@@ -1,4 +1,4 @@
-Source: sddm-theme-wintersky
+Source: sddm-theme-mow
 Maintainer: Torsten Wohlfart <towo@siduction.org>
 Uploaders: Hendrik Lehmbruch <hendrikl@siduction.org>
 Section: x11
@@ -9,16 +9,16 @@ Vcs-Browser: https://github.com/siduction/sddm-theme-siduction
 Vcs-Git: https://github.com/siduction/sddm-theme-siduction.git
 Homepage: https://github.com/siduction/sddm-theme-siduction
 
-Package: sddm-theme-wintersky
+Package: sddm-theme-mow
 Architecture: all
 Depends: ${misc:Depends},
-         wintersky-wallpapers,
+         mow-wallpapers,
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls2,
   		 qml-module-qtquick-controls
 Recommends: sddm
 Provides: sddm-theme
 Description:  theme for sddm
- siduction wintersky sddm theme.
+ siduction mow sddm theme.
  .
  This package contain a sddm theme.

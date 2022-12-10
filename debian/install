@@ -1,2 +1,2 @@
-theme/*       usr/share/sddm/themes/wintersky/
-etc/sddm.conf usr/share/sddm/wintersky/
+theme/*       usr/share/sddm/themes/mow/
+etc/sddm.conf usr/share/sddm/mow/
