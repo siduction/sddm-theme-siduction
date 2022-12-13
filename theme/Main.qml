@@ -97,15 +97,15 @@ Rectangle {
     /* end topBar */
     
     /* footerPic if a label/branding is wanted */    
-    Image {
-        id: footerPic
-        anchors.bottom: parent.bottom
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.bottomMargin: 20
-        width: parent.width
-        source: "images/footer.svg"
-        fillMode: Image.PreserveAspectFit
-    }
+    // Image {
+    //     id: footerPic
+    //     anchors.bottom: parent.bottom
+    //     anchors.horizontalCenter: parent.horizontalCenter
+    //     anchors.bottomMargin: 20
+    //     width: parent.width
+    //     source: "images/footer.svg"
+    //     fillMode: Image.PreserveAspectFit
+    // }
     /* end footerPic */ 
     
     /* Main block */
