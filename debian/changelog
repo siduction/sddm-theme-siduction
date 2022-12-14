@@ -1,3 +1,9 @@
+sddm-theme-mow (2022.1.0-4) unstable; urgency=medium
+
+  * import deppspace image
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 14 Dec 2022 18:26:19 +0100
+
 sddm-theme-mow (2022.1.0-3) unstable; urgency=medium
 
   * packaging latest changes
