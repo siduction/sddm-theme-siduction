@@ -91,7 +91,7 @@ Rectangle {
         width: 490
         height: 34
         color: "#333335"
-        opacity: 0.35
+        opacity: 0
         radius: 6
     }   
     /* end topBar */
