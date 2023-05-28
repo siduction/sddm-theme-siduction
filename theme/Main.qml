@@ -1,5 +1,5 @@
 /***************************************************************************
- * Copyright: 2015-2021 Hendrik Lehmbruch <hendrikL@siduction.org>
+ * Copyright: 2015-2023 Hendrik Lehmbruch <hendrikL@siduction.org>
  *            2013 Reza Fatahilah Shah <rshah0385@kireihana.com>
  *            2013 Abdurrahman AVCI <abdurrahmanavci@gmail.com>
  *
@@ -112,7 +112,7 @@ Rectangle {
     Rectangle {
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: 80
+        anchors.topMargin: 50
         width: 450
         height: 150
         color: "transparent" /*must be transparent*/
