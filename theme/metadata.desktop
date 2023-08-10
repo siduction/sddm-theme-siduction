@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=mow
-Description=mow sddm theme
+Name=giants
+Description=giants sddm theme
 Type=sddm-greeter
 Author=Hendrik Lehmbruch
 Copyright=2021, Hendrik Lehmbruch
@@ -10,6 +10,6 @@ Version=0.1
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Theme-Id=mow
+Theme-Id=giants
 Theme-API=2.0
 Website=https://github.com/siduction/sddm-theme-siduction

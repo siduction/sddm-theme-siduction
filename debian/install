@@ -1,2 +1,2 @@
-theme/*       usr/share/sddm/themes/mow/
-etc/sddm.conf usr/share/sddm/mow/
+theme/*       usr/share/sddm/themes/giants/
+etc/sddm.conf usr/share/sddm/giants/

@@ -1,3 +1,9 @@
+sddm-theme-giants (2023.1-1) unstable; urgency=medium
+
+  * prepare release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 10 Aug 2023 16:59:49 +0200
+
 sddm-theme-mow (2022.1.0-5) unstable; urgency=medium
 
   * package latest changes by hhl
