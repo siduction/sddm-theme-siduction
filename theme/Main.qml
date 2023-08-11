@@ -91,39 +91,39 @@ Rectangle {
         width: 490
         height: 34
         color: "#333335"
-        opacity: 0
+        opacity: 0.65
         radius: 6
     }   
     /* end topBar */
     
     /* footerPic if a label/branding is wanted */    
-    // Image {
-    //     id: footerPic
-    //     anchors.bottom: parent.bottom
-    //     anchors.horizontalCenter: parent.horizontalCenter
-    //     anchors.bottomMargin: 20
-    //     width: parent.width
-    //     source: "images/footer.svg"
-    //     fillMode: Image.PreserveAspectFit
-    // }
+    Image {
+         id: footerPic
+         anchors.bottom: parent.bottom
+         anchors.horizontalCenter: parent.horizontalCenter
+         anchors.bottomMargin: 40
+         width: parent.width
+         source: "images/footer.svg"
+         fillMode: Image.PreserveAspectFit
+     }
     /* end footerPic */ 
     
     /* Main block */
     Rectangle {
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: 80
+        anchors.topMargin: 140
         width: 450
         height: 150
         color: "transparent" /*must be transparent*/
-        radius: 12
+        radius: 6
         
         Rectangle {
             width: 450
             height: 150
-            //color: "#333335"
-            opacity: 0.0
-            radius: 12
+            color: "#333335"
+            opacity: 0.65 /* background opacity main block */
+            radius: 6
         }
 
         /* Messages and warnings */             
