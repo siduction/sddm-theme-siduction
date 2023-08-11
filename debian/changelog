@@ -1,3 +1,10 @@
+sddm-theme-giants (2023.1-2) unstable; urgency=medium
+
+  [ Hendrik Lehmbruch ]
+  * new footer, some settings
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 11 Aug 2023 11:01:56 +0200
+
 sddm-theme-giants (2023.1-1) unstable; urgency=medium
 
   * prepare release
