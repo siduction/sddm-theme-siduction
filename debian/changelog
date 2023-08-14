@@ -1,3 +1,9 @@
+sddm-theme-giants (2023.1-5) unstable; urgency=medium
+
+  * fix debian/copyright
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 14 Aug 2023 11:31:43 +0200
+
 sddm-theme-giants (2023.1-4) unstable; urgency=medium
 
   * fix debian/copyright
