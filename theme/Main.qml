@@ -26,7 +26,7 @@
 
 import QtQuick 2.9
 import QtQuick.Controls 2.4
-import QtGraphicalEffects 1.0
+// import Qt5Compat.GraphicalEffects
 import SddmComponents 2.0
 import "./components" as Components
 
@@ -52,7 +52,7 @@ Rectangle {
         target: sddm        
 
         /* on fail login, clear user and password entry */
-        onLoginFailed: {
+        function onLoginFailed() {
             pw_entry.text = ""
             user_entry.text = ""
             user_entry.focus = true
@@ -70,12 +70,13 @@ Rectangle {
             y: geometry.y
             width: geometry.width
             height:geometry.height
-            source: config.background
+            source: Qt.resolvedUrl (config.background)
             fillMode:Image.PreserveAspectCrop /*Image.PreserveAspectFit*/
 
             KeyNavigation.backtab: user_entry; KeyNavigation.tab: user_entry
 
             onStatusChanged: {
+                var defaultBackground = Qt.resolvedUrl(config.defaultBackground)
                 if (status == Image.Error && source != config.defaultBackground) {
                     source = config.defaultBackground
                 }
@@ -103,7 +104,7 @@ Rectangle {
          anchors.horizontalCenter: parent.horizontalCenter
          anchors.bottomMargin: 40
          width: parent.width
-         source: "images/footer.svg"
+         source:  Qt.resolvedUrl ("images/footer.svg")
          fillMode: Image.PreserveAspectFit
      }
     /* end footerPic */ 
@@ -246,7 +247,7 @@ Rectangle {
                     ImageButton {
                         id: session_button
                         height: 27
-                        source: "images/session_normal.svg"
+                        source:  Qt.resolvedUrl ("images/session_normal.svg")
                         onClicked: if (menu_session.state === "visible") menu_session.state = ""; else 
                         menu_session.state = "visible"
 
@@ -256,7 +257,7 @@ Rectangle {
                     ImageButton {
                         id: system_button
                         height: 27
-                        source: "images/system_shutdown.svg"
+                        source:  Qt.resolvedUrl ("images/system_shutdown.svg")
                         onClicked: sddm.powerOff()
 
                         KeyNavigation.backtab: session_button; KeyNavigation.tab: reboot_button
@@ -265,7 +266,7 @@ Rectangle {
                     ImageButton {
                         id: reboot_button
                         height: 27
-                        source: "images/system_reboot.svg"
+                        source:  Qt.resolvedUrl ("images/system_reboot.svg")
                         onClicked: sddm.reboot()
 
                         KeyNavigation.backtab: system_button; KeyNavigation.tab: suspend_button
@@ -274,7 +275,7 @@ Rectangle {
                     ImageButton {
                          id: suspend_button
                          height: 27
-                         source: "images/system_suspend.svg"
+                         source:  Qt.resolvedUrl ("images/system_suspend.svg")
                          visible: sddm.canSuspend
                          onClicked: sddm.suspend()
  
@@ -284,7 +285,7 @@ Rectangle {
                      ImageButton {
                          id: hibernate_button
                          height: 27
-                         source: "images/system_hibernate.svg"
+                         source:  Qt.resolvedUrl ("images/system_hibernate.svg")
                          visible: sddm.canHibernate
                          onClicked: sddm.hibernate()
  
@@ -294,7 +295,7 @@ Rectangle {
                      ImageButton {
                          id: login_button
                          height: 27
-                         source: "images/login_normal.svg"                                                    
+                         source:  Qt.resolvedUrl ("images/login_normal.svg")
 
                          onClicked: sddm.login(user_entry.text, pw_entry.text, menu_session.index)
 

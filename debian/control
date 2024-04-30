@@ -13,7 +13,6 @@ Package: sddm-theme-giants
 Architecture: all
 Depends: ${misc:Depends},
          giants-wallpapers,
-         qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls2,
   		 qml-module-qtquick-controls
 Recommends: sddm
