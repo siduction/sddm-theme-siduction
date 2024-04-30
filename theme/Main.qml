@@ -26,7 +26,7 @@
 
 import QtQuick 2.9
 import QtQuick.Controls 2.4
-import QtGraphicalEffects 1.0
+// import Qt5Compat.GraphicalEffects
 import SddmComponents 2.0
 import "./components" as Components
 
@@ -52,7 +52,7 @@ Rectangle {
         target: sddm        
 
         /* on fail login, clear user and password entry */
-        onLoginFailed: {
+        function onLoginFailed() {
             pw_entry.text = ""
             user_entry.text = ""
             user_entry.focus = true
