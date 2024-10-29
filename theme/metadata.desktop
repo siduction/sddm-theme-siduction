@@ -1,10 +1,10 @@
 [SddmGreeterTheme]
 Name=giants
 Description=giants sddm theme
-Type=sddm-greeter
 Author=Hendrik Lehmbruch
 Copyright=2021, Hendrik Lehmbruch
 License=EXPAT
+Type=sddm-greeter
 Screenshot=images/preview.png
 Version=0.1
 MainScript=Main.qml
@@ -13,3 +13,4 @@ TranslationsDirectory=translations
 Theme-Id=giants
 Theme-API=2.0
 Website=https://github.com/siduction/sddm-theme-siduction
+QtVersion=6
