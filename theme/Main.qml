@@ -24,9 +24,11 @@
  *
  ***************************************************************************/
 
-import QtQuick 2.9
-import QtQuick.Controls 2.4
-// import Qt5Compat.GraphicalEffects
+import QtQuick 2.15
+import QtQuick.Layouts 1.15
+import QtQuick.Controls 2.15 as QQC2
+import Qt5Compat.GraphicalEffects
+
 import SddmComponents 2.0
 import "./components" as Components
 
