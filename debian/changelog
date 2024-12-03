@@ -1,3 +1,9 @@
+sddm-theme-giants (2023.2-2) unstable; urgency=medium
+
+  * Rebuild against Qt6
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 03 Dec 2024 10:40:35 +0100
+
 sddm-theme-giants (2023.1-5) unstable; urgency=medium
 
   * fix debian/copyright
