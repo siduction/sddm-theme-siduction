@@ -22,9 +22,9 @@
 *
 ***************************************************************************/
 
-import QtQuick 2.9
-import QtQuick.Controls 2.4
-// import Qt5Compat.GraphicalEffects
+import QtQuick 2.15
+import QtQuick.Controls 2.12
+import Qt5Compat.GraphicalEffects
  
 Item {
  id: toolTipRoot

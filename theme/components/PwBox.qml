@@ -23,11 +23,18 @@
 *
 ***************************************************************************/
 
+import QtQuick 2.15
+import SddmComponents 2.0
+// import QtQuick.Controls.Styles 1.4
+import QtQuick.Controls.Universal 2.12
+// import Qt5Compat.GraphicalEffects
+import QtQuick.Controls 2.12
+/*
 import QtQuick 2.9
 import SddmComponents 2.0
 import QtQuick.Controls.Styles 1.4
 //import Qt5Compat.GraphicalEffects
-import QtQuick.Controls 2.4
+import QtQuick.Controls 2.4*/
 
 FocusScope {
     id: container
