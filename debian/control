@@ -16,7 +16,9 @@ Depends: ${misc:Depends},
          qml6-module-qtquick-controls,
          qml6-module-qtquick-layouts,
          qml6-module-qt5compat-graphicaleffects
-Recommends: sddm
+Recommends: sddm,
+            libqt6svg6,
+            libqt6svgwidgets6
 Provides: sddm-theme
 Description:  theme for sddm
  siduction giants sddm theme.
