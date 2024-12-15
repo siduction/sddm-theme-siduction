@@ -1,3 +1,9 @@
+sddm-theme-shine_on (2024.1-1) unstable; urgency=medium
+
+  * prepare 2024.1 release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 15 Dec 2024 14:39:52 +0100
+
 sddm-theme-giants (2023.2-2) unstable; urgency=medium
 
   * Rebuild against Qt6

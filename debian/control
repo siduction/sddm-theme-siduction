@@ -1,5 +1,5 @@
-Source: sddm-theme-giants
-Maintainer: Torsten Wohlfart <towo@siduction.org>
+Source: sddm-theme-shine_on
+Maintainer: Torsten Wohlfarth <towo@siduction.org>
 Uploaders: Hendrik Lehmbruch <hendrikl@siduction.org>
 Section: x11
 Priority: optional
@@ -9,10 +9,10 @@ Vcs-Browser: https://github.com/siduction/sddm-theme-siduction
 Vcs-Git: https://github.com/siduction/sddm-theme-siduction.git
 Homepage: https://github.com/siduction/sddm-theme-siduction
 
-Package: sddm-theme-giants
+Package: sddm-theme-shine_on
 Architecture: all
 Depends: ${misc:Depends},
-         giants-wallpapers,
+         shine_on-wallpapers,
          qml6-module-qtquick-controls,
          qml6-module-qtquick-layouts,
          qml6-module-qt5compat-graphicaleffects
@@ -21,6 +21,6 @@ Recommends: sddm,
             qt-svg-plugins
 Provides: sddm-theme
 Description:  theme for sddm
- siduction giants sddm theme.
+ siduction shine_on sddm theme.
  .
  This package contain a sddm theme.

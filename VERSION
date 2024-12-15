@@ -1,9 +1,10 @@
 #!/bin/bash
 
-WALLPAPER=giants
-CODENAME_SAFE=giants
-DISPLAY_NAME=giants
-VERSION=2023.1
+WALLPAPER=shine_on
+CODENAME=Shine on
+CODENAME_SAFE=shine_on
+DISPLAY_NAME=shine_on
+VERSION=2024.1
 DISTRIBUTION=unstable
 
 
