@@ -115,7 +115,7 @@ Rectangle {
     Rectangle {
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: 300
+        anchors.topMargin: 227
         width: 450
         height: 150
         color: "transparent" /*must be transparent*/
