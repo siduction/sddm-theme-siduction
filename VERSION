@@ -1,9 +1,9 @@
 #!/bin/bash
 
-WALLPAPER=shine_on
+WALLPAPER=shine-on
 CODENAME=Shine on
-CODENAME_SAFE=shine_on
-DISPLAY_NAME=shine_on
+CODENAME_SAFE=shine-on
+DISPLAY_NAME=shine-on
 VERSION=2024.1
 DISTRIBUTION=unstable
 
@@ -30,4 +30,4 @@ REMEMBERLASTUSER=true
 PREVIEW="images/preview.png"
 
 #theme.conf
-BACKGROUND="images/background.svg"
+BACKGROUND="images/background.png"

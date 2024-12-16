@@ -1,4 +1,4 @@
-Source: sddm-theme-shine_on
+Source: sddm-theme-shine-on
 Maintainer: Torsten Wohlfarth <towo@siduction.org>
 Uploaders: Hendrik Lehmbruch <hendrikl@siduction.org>
 Section: x11
@@ -9,10 +9,10 @@ Vcs-Browser: https://github.com/siduction/sddm-theme-siduction
 Vcs-Git: https://github.com/siduction/sddm-theme-siduction.git
 Homepage: https://github.com/siduction/sddm-theme-siduction
 
-Package: sddm-theme-shine_on
+Package: sddm-theme-shine-on
 Architecture: all
 Depends: ${misc:Depends},
-         shine_on-wallpapers,
+         shine-on-wallpapers,
          qml6-module-qtquick-controls,
          qml6-module-qtquick-layouts,
          qml6-module-qt5compat-graphicaleffects
@@ -21,6 +21,6 @@ Recommends: sddm,
             qt-svg-plugins
 Provides: sddm-theme
 Description:  theme for sddm
- siduction shine_on sddm theme.
+ siduction shine-on sddm theme.
  .
  This package contain a sddm theme.
