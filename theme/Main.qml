@@ -94,7 +94,7 @@ Rectangle {
         width: 490
         height: 34
         color: "#333335"
-        opacity: 0.65
+        opacity: 0.15
         radius: 6
     }   
     /* end topBar */
@@ -125,7 +125,7 @@ Rectangle {
             width: 450
             height: 150
             color: "#333335"
-            opacity: 0.65 /* background opacity main block */
+            opacity: 0.15 /* background opacity main block */
             radius: 6
         }
 
