@@ -1,3 +1,10 @@
+sddm-theme-shine-on (2024.1-2) unstable; urgency=medium
+
+    [hendrikl]
+  * optical changes: opacity MainBlock and TopBar, new preview, fixd branding
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 17 Dec 2024 12:20:38 +0100
+
 sddm-theme-shine-on (2024.1-1) unstable; urgency=medium
 
   * prepare 2024.1 release
