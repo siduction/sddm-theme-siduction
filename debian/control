@@ -15,10 +15,11 @@ Depends: ${misc:Depends},
          shine-on-wallpapers,
          qml6-module-qtquick-controls,
          qml6-module-qtquick-layouts,
-         qml6-module-qt5compat-graphicaleffects
+         qml6-module-qt5compat-graphicaleffects,
+         qt6-svg-plugins,
+         plasma-workspace
 Recommends: sddm,
             libqt6svg6,
-            qt-svg-plugins
 Provides: sddm-theme
 Description:  theme for sddm
  siduction shine-on sddm theme.
