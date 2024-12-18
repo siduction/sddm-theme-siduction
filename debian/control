@@ -17,8 +17,9 @@ Depends: ${misc:Depends},
          qml6-module-qtquick-layouts,
          qml6-module-qt5compat-graphicaleffects,
          qt6-svg-plugins,
+         libqt6svgwidgets6,
+         libqt6widgets6,
 Recommends: sddm,
-            libqt6svg6,
 Provides: sddm-theme
 Description:  theme for sddm
  siduction shine-on sddm theme.
