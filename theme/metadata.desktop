@@ -1,8 +1,8 @@
 [SddmGreeterTheme]
-Name=shine_on
-Description=shine_on sddm theme
+Name=Big-Crime
+Description=Big Crime sddm theme
 Author=Hendrik Lehmbruch
-Copyright=2024, Hendrik Lehmbruch
+Copyright=2026, Hendrik Lehmbruch
 License=EXPAT
 Type=sddm-greeter
 Screenshot=images/preview.png
@@ -10,7 +10,7 @@ Version=0.1
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Theme-Id=shine_on
+Theme-Id=Big-Crime
 Theme-API=2.0
 Website=https://github.com/siduction/sddm-theme-siduction
 QtVersion=6
