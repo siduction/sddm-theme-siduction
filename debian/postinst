@@ -7,19 +7,17 @@ set -e
 
 
 if [[ "$1" = "configure" || "$1" = "abort-upgrade" || "$1" = "abort-remove" ]]; then
-    update-alternatives --install \
-        /usr/share/sddm/themes/debian-theme \
-        sddm-debian-theme \
-        /usr/share/sddm/themes/Big-Crime 50
+    update-alternatives --install /usr/share/sddm/themes/debian-theme sddm-debian-theme /usr/share/sddm/themes/big-crime 100
+    update-alternatives --set sddm-debian-theme /usr/share/sddm/themes/big-crime
 fi
 
 case "$1" in
     configure)
         # keep the old configuration
         if [ -f /etc/sddm.conf ]; then
-            cp -f /usr/share/sddm/Big-Crime/sddm.conf /etc/sddm.conf.dpkg-new
+            cp -f /usr/share/sddm/big-crime/sddm.conf /etc/sddm.conf.dpkg-new
         else
-            cp -f /usr/share/sddm/Big-Crime/sddm.conf /etc/sddm.conf
+            cp -f /usr/share/sddm/big-crime/sddm.conf /etc/sddm.conf
         fi
     ;;
 

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-WALLPAPER=shine-on
-CODENAME=Shine on
-CODENAME_SAFE=shine-on
-DISPLAY_NAME=shine-on
-VERSION=2024.1
+WALLPAPER=big-crime
+CODENAME=Big Crime
+CODENAME_SAFE=big-crime
+DISPLAY_NAME=big-crime
+VERSION=2026.1
 DISTRIBUTION=unstable
 
 

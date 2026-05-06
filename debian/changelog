@@ -1,3 +1,21 @@
+sddm-theme-big-crime (2026.1-1) unstable; urgency=medium
+
+  * New release.
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 06 May 2026 15:07:29 +0200
+
+sddm-theme-shine-on (2024.1-6) unstable; urgency=medium
+
+  * set our theme as default debian sddm-theme
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 21 Dec 2024 21:37:01 +0100
+
+sddm-theme-shine-on (2024.1-5) unstable; urgency=medium
+
+  * add InputMethod= to sddm.conf
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 21 Dec 2024 21:16:01 +0100
+
 sddm-theme-shine-on (2024.1-4) unstable; urgency=medium
 
   * fix depends
