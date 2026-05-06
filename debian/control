@@ -12,7 +12,7 @@ Homepage: https://github.com/siduction/sddm-theme-siduction
 Package: sddm-theme-big-crime
 Architecture: all
 Depends: ${misc:Depends},
-         Big-Crime-wallpapers,
+         big-crime-wallpapers,
          qml6-module-qtquick-controls,
          qml6-module-qtquick-layouts,
          qml6-module-qt5compat-graphicaleffects,
