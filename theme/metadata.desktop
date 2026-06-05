@@ -1,8 +1,8 @@
 [SddmGreeterTheme]
 Name=Big-Crime
 Description=Big Crime sddm theme
-Author=Hendrik Lehmbruch
-Copyright=2026, Hendrik Lehmbruch
+Author=siduction.org
+Copyright=2026, Torsten Wohlfarth
 License=EXPAT
 Type=sddm-greeter
 Screenshot=images/preview.png
