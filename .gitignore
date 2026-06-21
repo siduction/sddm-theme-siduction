@@ -1,8 +1,8 @@
 *.swp
 
-*/debian/debhelper-build-stamp
-*/debian/files
-*/debian/*.log
-*/debian/*.substvars
+debian/debhelper-build-stamp
+debian/files
+debian/*.log
+debian/*.substvars
 
 *debian/sddm-theme-paintitblack

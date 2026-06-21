@@ -1,3 +1,16 @@
+sddm-theme-big-crime (2026.1-4) unstable; urgency=medium
+
+  * little changes in background
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 21 Jun 2026 17:27:26 +0200
+
+sddm-theme-big-crime (2026.1-3) unstable; urgency=medium
+
+    [hhl]
+  * fix metadata
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 05 Jun 2026 14:17:58 +0200
+
 sddm-theme-big-crime (2026.1-2) unstable; urgency=medium
 
   * New artwork.
