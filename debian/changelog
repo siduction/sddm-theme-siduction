@@ -1,3 +1,9 @@
+sddm-theme-big-crime (2026.1-6) unstable; urgency=medium
+
+  * fix preview image
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 05 Aug 2026 19:40:55 +0200
+
 sddm-theme-big-crime (2026.1-5) unstable; urgency=medium
 
   * final artwork
